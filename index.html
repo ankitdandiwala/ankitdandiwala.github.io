@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Curriculum vitae and selected engineering projects of Ankitkumar Dandiwala.">
+  <title>Ankitkumar Dandiwala | CV & Engineering Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home">AD.</a>
+  <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+  <nav id="nav">
+    <a href="#profile">Profile</a><a href="#experience">Experience</a>
+    <a href="#projects">Projects</a><a href="#publications">Publications</a>
+    <a href="#education">Education</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <p class="eyebrow">CURRICULUM VITAE</p>
+  <h1>Ankitkumar<br>Dandiwala</h1>
+  <h2>Vehicle Dynamics · Control · Simulation</h2>
+  <p class="intro">Ph.D. in Mechanical Engineering from IIT Kharagpur. Experience in vehicle dynamics, multibody modelling, system identification, control and autonomous-vehicle engineering.</p>
+  <p class="hero-links"><a href="#experience">Professional experience ↓</a><a href="#projects">Selected projects ↓</a></p>
+  <div class="facts">
+    <div><strong>Ph.D.</strong><span>IIT Kharagpur</span></div>
+    <div><strong>Industry experience</strong><span>Vehicle and autonomous systems</span></div>
+    <div><strong>Research areas</strong><span>Dynamics, stability and control</span></div>
+  </div>
+</section>
+
+<section class="section" id="profile">
+  <div class="kicker">01 / PROFILE</div>
+  <div class="content">
+    <h2>Profile</h2>
+    <p>My work has covered vehicle dynamics modelling, multibody simulation, suspension engineering, system identification and control. My doctoral research at IIT Kharagpur focused on active tilt and rollover stability control of narrow electric three-wheelers.</p>
+    <p>In industry, I have worked on suspension kinematics and multibody modelling, four-wheel vehicle-dynamics modelling, data-based model correction, steering and braking system identification, and autonomous-vehicle platform development and integration.</p>
+  </div>
+</section>
+
+<section class="section shaded" id="experience">
+  <div class="kicker">02 / EXPERIENCE</div>
+  <div class="content">
+    <h2>Professional experience</h2>
+    <article class="entry">
+      <div class="entry-meta">DEC 2024 — PRESENT<span>Bhopal, India</span></div>
+      <div><h3>Senior Mechanical Engineer <span>/ Swaayatt Robots Pvt. Ltd.</span></h3>
+        <ul>
+          <li>Developing a modular C++ four-wheel vehicle-dynamics framework, including longitudinal, lateral, yaw, roll and pitch behaviour and Pacejka tyre modelling.</li>
+          <li>Developed machine-learning models using experimental vehicle data to reduce simulation-to-real discrepancies in vehicle position (X, Y) and heading by more than 90%.</li>
+          <li>Working on rollover-safety measures including Load Transfer Ratio and Stability Margin, with consideration of vehicle dynamics, suspension behaviour and road slope.</li>
+          <li>Identified steering and braking actuator dynamics using experimental data; evaluated PID and Model Predictive Control approaches.</li>
+          <li>Contributing to ROS/Gazebo simulation and mechanical development, integration and testing of autonomous vehicle platforms.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="entry">
+      <div class="entry-meta">2024<span>Electric vehicle development</span></div>
+      <div><h3>Vehicle Engineering <span>/ Pravaig Dynamics</span></h3>
+        <ul>
+          <li>Developed a double-wishbone suspension kinematics tool to study linkage motion under heave, droop, steering and roll, with 3D visualisation.</li>
+          <li>Developed a MATLAB Simscape Multibody model of a double-wishbone suspension assembly for integration into a full-vehicle model.</li>
+          <li>Worked on suspension kinematics and dynamics, hard-point studies, quarter- and half-car modelling, anti-roll-bar design and vehicle engineering analysis.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="entry">
+      <div class="entry-meta">2018 — 2024<span>Kharagpur, India</span></div>
+      <div><h3>Ph.D. Researcher <span>/ IIT Kharagpur</span></h3>
+        <ul>
+          <li>Researched vehicle dynamics and active rollover stability control of narrow tilting electric three-wheelers.</li>
+          <li>Developed multibody vehicle and actuator models, rollover-safety measures and control methods.</li>
+          <li>Investigated optimization and artificial-neural-network-based integrated control; carried out simulation-based evaluation.</li>
+        </ul>
+      </div>
+    </article>
+    <article class="entry">
+      <div class="entry-meta">2010 — 2018<span>Academic experience</span></div>
+      <div><h3>Assistant Professor / Lecturer</h3>
+        <ul><li>Teaching experience in mechanical engineering, including courses and laboratory work. (Institution names and exact dates can be added from the final CV.)</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="kicker">03 / PROJECTS</div>
+  <div class="content">
+    <h2>Selected projects</h2>
+    <p class="section-note">Project descriptions are kept brief. Numerical results are included only where they are reported in the project data or published research.</p>
+
+    <article class="project">
+      <div class="project-head"><span>01</span><h3>Vehicle model correction using experimental data</h3></div>
+      <p>Developed machine-learning models to correct simulated vehicle position and heading using experimental vehicle data.</p>
+      <p class="result"><strong>Result:</strong> More than 90% reduction in simulation-to-real discrepancies across X, Y and heading signals.</p>
+      <small>SWAAYATT ROBOTS · VEHICLE MODELLING · MACHINE LEARNING</small>
+    </article>
+
+    <article class="project">
+      <div class="project-head"><span>02</span><h3>Four-wheel vehicle dynamics and rollover analysis</h3></div>
+      <p>Developing a modular vehicle-dynamics framework with tyre modelling, roll and pitch behaviour, and rollover-safety measures including Load Transfer Ratio and Stability Margin.</p>
+      <p class="result"><strong>Work:</strong> C++ vehicle model and analysis framework for vehicle behaviour and rollover studies.</p>
+      <small>SWAAYATT ROBOTS · VEHICLE DYNAMICS · C++</small>
+    </article>
+
+    <article class="project">
+      <div class="project-head"><span>03</span><h3>Active tilt control of narrow electric three-wheelers</h3></div>
+      <p>Doctoral research on integrated vehicle modelling and active tilt and rollover-stability control, including ANN-based control methods.</p>
+      <p class="result"><strong>Published result:</strong> ANN testing accuracy of 97.56% in the reported study. The paper also evaluated manoeuvres up to 100 km/h and a 22° steering-angle case.</p>
+      <small>Ph.D. RESEARCH · CONTROL · SIMULATION</small>
+      <a class="doi" href="https://doi.org/10.1016/j.eswa.2023.121970" target="_blank" rel="noreferrer">Published paper ↗</a>
+    </article>
+
+    <article class="project">
+      <div class="project-head"><span>04</span><h3>Road-bank compensation for active tilt control</h3></div>
+      <p>Simulation-based study of active tilt control while accounting for road bank angle.</p>
+      <p class="result"><strong>Published results:</strong> 29.19% improvement in rollover stability, 40% reduction in average actual tilt angle and 21% lower perceived lateral acceleration in the reported manoeuvre.</p>
+      <small>Ph.D. RESEARCH · VEHICLE DYNAMICS · SIMULATION</small>
+      <a class="doi" href="https://doi.org/10.1177/14644193231163631" target="_blank" rel="noreferrer">Published paper ↗</a>
+    </article>
+
+    <article class="project">
+      <div class="project-head"><span>05</span><h3>Suspension kinematics and multibody modelling</h3></div>
+      <p>Developed a double-wishbone suspension kinematics tool with 3D visualisation and a MATLAB Simscape Multibody suspension assembly model.</p>
+      <p class="result"><strong>Scope:</strong> Linkage motion under heave, droop, steering and roll; suspension assembly modelling for full-vehicle integration.</p>
+      <small>PRAVAIG DYNAMICS · SUSPENSION · SIMSCAPE MULTIBODY</small>
+    </article>
+
+    <article class="project">
+      <div class="project-head"><span>06</span><h3>Steering and braking actuator identification</h3></div>
+      <p>Experimental identification of steering and braking actuation systems, followed by evaluation of PID and Model Predictive Control approaches.</p>
+      <small>SWAAYATT ROBOTS · SYSTEM IDENTIFICATION · CONTROL</small>
+    </article>
+  </div>
+</section>
+
+<section class="section dark" id="publications">
+  <div class="kicker">04 / PUBLICATIONS</div>
+  <div class="content">
+    <h2>Selected publications</h2>
+    <div class="publication">
+      <span>EXPERT SYSTEMS WITH APPLICATIONS · 2024</span>
+      <h3>An artificial neural network-based integrated tilt control system for narrow electric three-wheelers</h3>
+      <a href="https://doi.org/10.1016/j.eswa.2023.121970" target="_blank" rel="noreferrer">DOI: 10.1016/j.eswa.2023.121970 ↗</a>
+    </div>
+    <div class="publication">
+      <span>VEHICLE SYSTEM DYNAMICS</span>
+      <h3>Vehicle dynamics and active rollover stability control of an electric narrow three-wheeled vehicle: a review and concern towards improvement</h3>
+      <a href="https://doi.org/10.1080/00423114.2022.2046810" target="_blank" rel="noreferrer">DOI: 10.1080/00423114.2022.2046810 ↗</a>
+    </div>
+    <div class="publication">
+      <span>JOURNAL OF MULTIBODY DYNAMICS</span>
+      <h3>Dynamic rollover-safety index-based tilt optimisation encompassing road configurations for narrow three-wheelers</h3>
+      <a href="https://doi.org/10.1177/14644193231207496" target="_blank" rel="noreferrer">DOI: 10.1177/14644193231207496 ↗</a>
+    </div>
+    <div class="publication">
+      <span>JOURNAL OF MULTIBODY DYNAMICS</span>
+      <h3>Simulation-based study on active tilt controlled narrow three-wheeler considering road bank angle</h3>
+      <a href="https://doi.org/10.1177/14644193231163631" target="_blank" rel="noreferrer">DOI: 10.1177/14644193231163631 ↗</a>
+    </div>
+    <p class="reviewer">Reviewer: IEEE Transactions on Vehicular Technology · Journal of Automobile Engineering</p>
+  </div>
+</section>
+
+<section class="section shaded" id="education">
+  <div class="kicker">05 / EDUCATION</div>
+  <div class="content">
+    <h2>Education</h2>
+    <div class="education">
+      <div><strong>Ph.D. — Mechanical Engineering</strong><span>Indian Institute of Technology Kharagpur · 2018–2024 · CGPA 8.73/10</span></div>
+      <div><strong>M.Tech. — Turbo Machines</strong><span>Sardar Vallabhbhai National Institute of Technology, Surat · 2011–2013 · CGPA 8.61/10</span></div>
+      <div><strong>B.E. — Mechanical Engineering</strong><span>Government Engineering College, Bharuch · 2006–2010</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="expertise">
+  <div class="kicker">06 / EXPERTISE</div>
+  <div class="content">
+    <h2>Technical skills</h2>
+    <div class="skills">
+      <div><h3>Vehicle dynamics</h3><p>Vehicle modelling · Multibody dynamics · Tyre modelling · Suspension dynamics · Rollover stability</p></div>
+      <div><h3>Simulation</h3><p>MATLAB/Simulink · Simscape Multibody · ROS/Gazebo · Model-in-the-Loop · Software-in-the-Loop</p></div>
+      <div><h3>Control</h3><p>PID · Model Predictive Control · Active tilt control · Optimization</p></div>
+      <div><h3>Data and identification</h3><p>Python · Machine learning · System identification · Parameter estimation · Experimental data analysis</p></div>
+      <div><h3>Engineering</h3><p>Suspension design · CAD · Vehicle integration · Mechanical development and testing</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <p class="eyebrow">CONTACT</p>
+  <h2>Contact</h2>
+  <p>For professional enquiries, please use the email address below.</p>
+  <a class="email" href="mailto:YOUR_EMAIL_ADDRESS">YOUR_EMAIL_ADDRESS</a>
+  <p class="location">Bhopal, India</p>
+</section>
+</main>
+<footer><a class="brand" href="#home">AD.</a><span>© 2026 Ankitkumar Dandiwala</span><a href="#home">Back to top ↑</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
